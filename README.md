@@ -1,6 +1,6 @@
 # 📦 Project Name
 
-> Image filtering in image processing.
+> Java demo.
 
 ---
 
@@ -20,15 +20,14 @@
 
 ## 📝 About
 
-> This is a simple tool to filter image by many types.
+> Simple demos to investigate Java programming.
 
 ---
 
 ## ✨ Features
 
-- ✅ Add noise with density (Gaussian, Poisson, Salt & Pepper, Speckle)
-- ✅ Noise removal filter by size
-- ✅ Enhancement
+- ✅ Data structs: array, number, string, ArrayList, Stream ...
+- ✅ Serialization to transfer data
 
 ---
 
@@ -37,21 +36,20 @@
 ### Prerequisites
 
 - List software dependencies or system requirements here:
-  - MATLAB
+  - Java JDK
+  - VSCode
 
 ### Source
 
-- *.fig: design GUI
-- *.m: main app
+- *.java: source code
+- *.class: compiled file
+- *.ser: serializing file
 
 ### Usage
 
-- Open file *.m in MATLAB
-- Change folder to location containing source code
+- Open file *.java in VSCode
 - Run
-- When app window opens, choose image file first
-- Apply custom image filters (fill mandatory parameters) and see results 
 
 ### Reference
 
-- 
+- https://codelearn.io/learning/java-co-ban
