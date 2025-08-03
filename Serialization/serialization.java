@@ -26,7 +26,7 @@ class Employees implements Serializable {
 public class serialization {   
     public static void serialize(Employees employee){
         try {
-            FileOutputStream fileOut = new FileOutputStream("employees.ser");
+            FileOutputStream fileOut = new FileOutputStream("Serialization/employees.ser");
             ObjectOutputStream out = new ObjectOutputStream(fileOut);
 
             out.writeObject(employee);
@@ -41,7 +41,7 @@ public class serialization {
 
     private static void deserialize() {
         try {
-            FileInputStream fileInput = new FileInputStream("employees.ser");
+            FileInputStream fileInput = new FileInputStream("Serialization/employees.ser");
             ObjectInputStream input = new ObjectInputStream(fileInput);
             //readObject trả về một Object nên cần ép về kiểu Employees
             Employees employee = (Employees) input.readObject();
