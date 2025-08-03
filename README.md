@@ -28,6 +28,7 @@
 
 - ✅ Data structs: array, number, string, ArrayList, Stream ...
 - ✅ Serialization to transfer data
+- ✅ OOP concepts: static variables & methods, class & obj, encapsulation, inheritance, polymorphism, abstraction, relationship
 
 ---
 
@@ -44,11 +45,12 @@
 - *.java: source code
 - *.class: compiled file
 - *.ser: serializing file
+- *.json: setting of workspace
 
 ### Usage
 
-- Open file *.java in VSCode
-- Run
+- Open terminal
+- Run **java _/path/to/*.java_**
 
 ### Reference
 
